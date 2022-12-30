@@ -13,6 +13,11 @@ Install package with npm
 ```bash
   npm install 
 ```
+
+## Deployment
+
+Deployment link:
+  https://idweather.vercel.app/
     
 ## Usage
 
