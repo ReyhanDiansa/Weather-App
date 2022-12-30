@@ -1,0 +1,134 @@
+.container{
+    background-image: url(../../assets/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.container h1{
+    text-align: center;
+    padding-top:15rem;
+    padding-bottom: 10px;
+    color: black;
+    font-size: xx-large;
+}
+
+.container p{
+    text-align: center;
+    font-size: medium;
+}
+.cari{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    margin-right: 1.7rem;  
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-family: Arial, sans-serif;
+  }
+  .form {
+    width: 30em;
+    margin: 0 auto;
+    padding: 1.5em 0;
+  }
+
+  *::-webkit-input-placeholder {
+    color: #ababab;
+  }
+  *:-moz-placeholder {
+    color: #ababab;
+  }
+  *::-moz-placeholder {
+    color: #ababab;
+  }
+  *:-ms-input-placeholder {
+    color: #ababab;
+  }
+  input {
+    /* line-height: 1em; */
+    font-family: inherit;
+    font-size: 18px;
+    border: none;
+    color: #121212;
+    background: #ededed;
+    overflow: auto;
+    resize: none;
+    padding-top: 0.40em;
+    padding-left: 5%;
+    padding-right: 10em;
+    padding-bottom: 0.40em; 
+  }
+  /* input[type=text], input[type=email], input[type=url], input[type=password] {
+    height: 1.5em;
+  } */
+  /* textarea {
+    height: 6em;
+    vertical-align: top;
+  } */
+  input[type=text]:focus, input[type=email]:focus, input[type=url]:focus, input[type=password]:focus, textarea:focus {
+    outline: 0;
+    border: none;
+  }
+  .submit button {
+    border: none;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-family: inherit;
+    font-size: 18px;
+    /* line-height: 1em; */
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0.40em;
+    padding-bottom: 0.40em;
+    color: white;
+    background-color: #05AFF2;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin:5rem auto;
+  }
+  .card-title{
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .garis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .garis p{
+    margin: 0 5px;
+    font-size: small;
+  }
+
+  .card-body{
+    padding: 7px 10px;
+  }
+
+  .card-body h4{
+    font-size: larger;
+  }
+
+  .card-body p{
+    padding-top: 10px;
+    font-size: medium;
+  }
+  
