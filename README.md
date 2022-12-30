@@ -1,6 +1,11 @@
 # Indonesia Weather App
 
 Website untuk melihat informasi cuaca sekarang di Indonesaia dan dunia
+
+## Documentation
+
+![App Screenshot](https://github.com/ReyhanDiansa/Weather-App/blob/main/src/assets/images/docum.png)
+
 ## Installation
 
 Install package with npm
